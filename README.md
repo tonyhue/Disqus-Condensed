@@ -1,6 +1,8 @@
 # Disqus-Condensed
 A custom theme for Disqus.com featuring readability enhancements.
 
+Install on Chrome: https://chrome.google.com/webstore/detail/disqus-condensed/jjdnibohihomibfhckihkohkjaegbcnf
+
 _Home feed_
 ![Disqus Condensed Home Feed screenshot](http://i.imgur.com/SZUSn1S.png)
 
