@@ -1,0 +1,179 @@
+/* Compress with http://csscompressor.com/*/
+
+/* HOME FEED */
+.card-content__media {
+    height: 100%;
+}
+.card__reason {
+    font-size: 14px;
+}
+.card-wrap {
+    margin-bottom: 5px;
+}
+.card__reason.align.align--middle {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eff3fa;
+}
+/* highlight new discussions from people I follow */
+.homepage-feed .card__reason.link-inner-gray-dark.align.align--middle {
+    background: #fff299; /* light yellow */
+}
+/* Hide mention of external links */
+a[data-link-name="external_thread"] {
+    display: none;
+}
+
+.card__additional {
+    display: none;
+}
+.homepage-feed li.dropdown, .feed-content li.dropdown {
+    display: none;
+}
+/* Hide excerpt */
+.card-content__summary {                                   
+    display: none;
+}
+
+/* MAIN NAVIGATION */ 
+.dropdown-settings li a:hover {
+    background-color: #2e9fff;
+    color: white;
+}
+
+li a[href^='/follow/facebook/'] {
+    display: none;
+}
+
+/* CHANNEL FEED */
+
+a[href^='/home/discuss/channel-'] {
+    background: #cce9ff; /* light blue */
+}
+.card-content__topics {
+    display: none;
+}
+
+
+/* NOTIFICATIONS */
+
+.card-notif-create .card__reason {
+    background: #fff299; /* light yellow */
+}
+.card-wrap.card--notification.card-notif-follow {
+    display: none;
+}
+.-notification .card-content__summary {
+    display: block;
+}
+
+/* EXPLORE */
+
+.card__reason.-explore.align.align--middle {
+    border-bottom: none;
+    padding-top: 10px
+}
+
+/* DISCUSSIONS */
+
+/* Underline active comment sort */
+.nav--discussion li[data-action="switch-tab"].active span.button__text {
+    border-bottom: 1px solid rgb(46, 159, 255);
+}
+
+/* Related Discussions Sidebar */
+div[data-role="related-stories"] header.module-header.-plain {
+    border: none;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+}
+div[data-role="related-stories"] .module-recent__item {
+    display: block;
+    transition: all 250ms ease-in-out;
+    padding: 0;
+}
+div[data-role="related-stories"] .module-body {
+    border: 1px solid #e0e3e9;
+    padding: 0;
+}
+div[data-role="related-stories"] .module-recent__item:hover {
+    background-color: #cce9ff; /* light blue */
+}
+div[data-role="related-stories"] .module-recent__item:first-child {
+    padding-top: 0;
+}
+div[data-role="related-stories"] .module-recent__item {
+    padding: 0;
+    margin: 0;
+}
+div[data-role="related-stories"] .module-recent__media {
+    padding-top: 10px;
+}
+div[data-role="related-stories"] .media-body .spacing-bottom-narrow {
+    padding: 10px 15px;
+}
+div[data-role="related-stories"] .media-body .text-small {
+    padding: 0 15px 10px;
+}
+/* DESKTOP ONLY */
+
+@media only screen and (min-width: 768px) {
+
+    /* HOME FEED */
+    .has-image .card-content__body {
+        width: calc(100% - 0px);
+    }
+    .img-cards {
+        width: 80px;
+        height: 80px;
+    }
+    .card__content.-default.has-image {
+        padding-bottom: 15px;
+    }
+    .card__content.-default.has-image + .card__footer.text-small {
+        position: absolute;
+        bottom: 0px;
+    }
+    .is-recommended .card__reason.link-inner-gray-dark {
+        position: absolute;
+        right: 0;
+        top: 5px;
+        border-bottom: none;
+    }
+    .card-content__body .discussion-title {
+        font-size: 20px;
+    }
+    .has-image .card-content__body {
+        margin-bottom: 50px;
+    }
+
+
+    /* CHANNEL FEED */
+    .card--channel .card__header {
+        margin-bottom: 10px;
+    }
+    
+
+    /* NOTIFICATIONS */
+    .-notification .card-content__body {
+        margin-bottom: 0px;
+    }
+
+
+    /* EXPLORE */
+    .explore-discussion__wrapper .card__content.-default.has-image {
+        padding-bottom: 10px;
+    }
+    .explore-discussion__wrapper .has-image + .card__footer.text-gray-dark.text-semibold {
+        position: absolute;
+        bottom: 0;
+    }
+    .explore-discussion__wrapper .card--channel:hover {
+        /* border-left: 3px solid #54aeff; */
+        background: #cce9ff; /* #f1f1f1; gray */
+    }
+    .explore-discussion__wrapper .card-wrap.-link {
+        margin-bottom: 0px;
+    }
+}
+
+/* EXPERIMENTAL */
