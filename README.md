@@ -1,6 +1,15 @@
 # Disqus-Condensed
 A custom theme for Disqus.com featuring readability enhancements.
 
+_Home feed_
+![Disqus Condensed Home Feed screenshot](http://i.imgur.com/SZUSn1S.png)
+
+_Notifications_
+![Disqus Condensed Notifications screenshot](http://i.imgur.com/txjRI5V.png)
+
+_Explore_
+![Disqus Condensed Explore screenshot](http://i.imgur.com/bcgoMSn.png)
+
 Enhancements:
 - Home & channel feeds: x2 stories per page as you scroll
 - Explore Discussions & related discussions sidebar is easier to scan
