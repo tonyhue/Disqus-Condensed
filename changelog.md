@@ -32,3 +32,6 @@ https://stackoverflow.com/questions/5745822/open-a-help-page-after-chrome-extens
 
 ## 12/25/16
 - Uploading to Github
+
+## 12/26/16
+- Added blue background color to unread notifications

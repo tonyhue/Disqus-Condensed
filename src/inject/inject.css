@@ -65,7 +65,15 @@ a[href^='/home/discuss/channel-'] {
 .-notification .card-content__summary {
     display: block;
 }
-
+.unread .card__reason {
+    border-bottom: 1px solid #cacaca;
+}
+.card-wrap.unread {
+    background-color: #e8f6ff;
+}
+.unread .card-comment .parent .comment-body {
+    border-left: 4px solid #cacaca;
+}
 /* EXPLORE */
 
 .card__reason.-explore.align.align--middle {
